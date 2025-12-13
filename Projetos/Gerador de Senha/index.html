@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>GERADOR DE SENHA</h1>
+        <div class="lado_esquerdo">
+            <P class="sub_senha">SENHA GERADA:</P>
+            <div class="container_senha">
+                <p id="campoSenha"></p>
+            </div>
+            <P class="sub_seg">SEGURANÇA DA SENHA:</P>
+            <div class="barra">
+                <div class="preenchimento" id="barraForca"><span id="porcentagem">0%</span></div>
+            </div>
+        </div>
+        <div class="lado_direito">
+            <div class="container_escolhas">
+                <label>
+                    <button id="btnMaius" type="button" class="check ativo"
+                        onclick="this.classList.toggle('ativo'); sorteio();">✔</button>
+                    Maiúsculas
+                </label>
+                <label>
+                    <button id="btnMinus" type="button" class="check"
+                        onclick="this.classList.toggle('ativo'); sorteio();">✔</button>
+                    Minúsculas
+                </label>
+                <label>
+                    <button id="btnNum" type="button" class="check"
+                        onclick="this.classList.toggle('ativo'); sorteio();">✔</button>
+                    Números
+                </label>
+                <label>
+                    <button id="btnSimbol" type="button" class="check"
+                        onclick="this.classList.toggle('ativo'); sorteio();">✔</button>
+                    Simbólos
+                </label>
+
+            </div>
+            <div class="caracteres">
+                <p class="caracteres">Quantidade de caracteres</p>
+                <input id="range" class="range" type="range" min="0" max="10" step="1" onclick="sorteio();" />
+                <span class="range" id="valorRange">5</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script do JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
