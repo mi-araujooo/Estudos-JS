@@ -1,0 +1,33 @@
+html, body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}.adicionar {
+    height: 24px;
+}input{
+    height: 24px;
+}.lista {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}.item {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}.espaço_txt {
+    border: 1px solid #767676;
+    width: 225px;
+    background: #ffffff;
+    border-radius: 2px;
+}.txt {
+    margin-left: 10px;
+    padding: 2px;
+    font-family: system-ui;
+}.txt.fim {
+    margin-left: 10px;
+    padding: 2px;
+    font-family: system-ui;
+    text-decoration-line: line-through;
+}
