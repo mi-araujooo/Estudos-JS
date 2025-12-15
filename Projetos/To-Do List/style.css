@@ -1,0 +1,165 @@
+html, body {
+    margin: 0;
+}body {
+    min-height: 100vh;
+    background: linear-gradient(to top, #ff000082, #ffffff, #ffffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}.espaco_usado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.add {
+    background: linear-gradient(90deg, #700f0f, #d82e2e);
+    color: white;
+    font-size: xx-large;
+    border-radius: 60%;
+    border: none;
+    width: 37px;
+    height: 42px;
+}.add:hover {
+    box-shadow: black 0px 0px 3px 0px;
+    cursor: pointer;
+}input {
+    border: none;
+    color: #000000;
+    background: #d9d9d9;
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: system-ui;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}input:focus {
+    outline: none;
+    border: none;
+    color: #000000;
+    background: #d9d9d9;
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: system-ui;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}.espc_add {
+    display: flex;
+    gap: 10px;
+}h1 {
+    font-family: system-ui;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}.espaco_tarefas {
+    display: flex;
+    margin-bottom: 15px;
+}.btn-concluir {
+    background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to right, #700f0f, #d82e2e) border-box;
+    border: 2px solid transparent;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    border-radius: 60%;
+    margin-right: 10px;
+}.btn-concluir:hover {
+    cursor: pointer;
+}.btn-concluir.ativo {
+    background:
+    linear-gradient(to right, #700f0f, #d82e2e) padding-box,
+    linear-gradient(to right, #700f0f, #d82e2e) border-box;
+    color: white;
+}.btn-edit {
+    background: #d42d2d;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    border-radius: 20%;
+    border: none;
+    width: 30px;
+    height: 33px;
+    margin-right: 5px;
+}.btn-edit:hover {
+    cursor: pointer;
+}.btn-edit:disabled {
+    cursor: auto;
+}.btn-edit svg {
+  fill: white;
+}.btn-del {
+    background: #d42d2d;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    border-radius: 20%;
+    border: none;
+    width: 30px;
+    height: 33px;
+}.btn-del:hover {
+    cursor: pointer;
+}.btn-del svg {
+  fill: white;
+}.espaco_txt {
+    background: #d9d9d9;
+    border-radius: 60px;
+    width: -webkit-fill-available;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 15px;
+}.espaco_txt.concluido {
+    background: #2b2b2b;
+    border-radius: 60px;
+    width: -webkit-fill-available;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 15px;
+}.texto-tarefa {
+    flex: 1;
+    margin-left: 10px;
+    font-family: system-ui;
+    font-size: larger;
+    padding: 5px;
+    outline: none;
+}.texto-tarefa.concluido {
+  flex: 1;
+  color: white;
+  text-decoration-line: line-through;
+}.lista-tarefas {
+    width: 355px;
+}.espaco_txt,
+.texto-tarefa {
+  transition: all 0.5s ease;
+}.espaco_tarefas.saindo {
+  animation: sair 0.25s ease forwards;
+}.espaco_tarefas {
+  animation: entrar 0.3s ease;
+}
+
+@keyframes entrar {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes sair {
+  to {
+    opacity: 0;
+    transform: translateX(20px) scale(0.9);
+    height: 0;
+    margin: 0;
+  }
+}
+
+
+
