@@ -7,7 +7,7 @@ Projeto desenvolvido para praticar lógica de programação, conceitos relaciona
 - JavaScript
 
 ## 🎯 Objetivo
-Criar um uma lista de tarefas interativa e editavel
+Criar uma lista de tarefas interativa e editável, permitindo ao usuário gerenciar atividades de forma simples e visual.
 
 ## Funcionalidades ⌨️
 - Adicionar novas tarefas
