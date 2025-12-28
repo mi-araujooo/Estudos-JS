@@ -1,4 +1,5 @@
 # 📋 Formulário de Cadastro com Validação
+
 ## 🎯 Objetivo
 Criar um formulário de cadastro funcional que valide corretamente os dados inseridos pelo usuário, fornecendo feedback visual e mensagens claras de erro ou sucesso.
 
