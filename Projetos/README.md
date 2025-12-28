@@ -7,3 +7,4 @@ específicos.
 ## 🎯 Projetos desenvolvidos
 - Gerador de senhas
 - To-Do List
+- Formulário básico de cadastro
