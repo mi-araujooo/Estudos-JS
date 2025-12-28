@@ -9,7 +9,7 @@ Criar um formulário de cadastro funcional que valide corretamente os dados inse
 - CSS3  
 - JavaScript (Vanilla)
 
-## ✅ Funcionalidades
+## Funcionalidades ⌨️
 - Validação de campos obrigatórios
 - Verificação de email
 - Validação de senha com:
