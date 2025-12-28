@@ -4,14 +4,10 @@ Projeto desenvolvido com o objetivo de praticar **HTML, CSS e JavaScript**, com 
 ## 🎯 Objetivo
 Criar um formulário de cadastro funcional que valide corretamente os dados inseridos pelo usuário, fornecendo feedback visual e mensagens claras de erro ou sucesso.
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla)
-
----
 
 ## ✅ Funcionalidades
 - Validação de campos obrigatórios
@@ -24,6 +20,6 @@ Criar um formulário de cadastro funcional que valide corretamente os dados inse
 - Feedback visual com animações leves
 - Reset do formulário após envio válido
 
----
+## 📂 Prévia
 
-## 📂 Estrutura do Projeto
+<img width="1000" height="646" alt="image" src="https://github.com/user-attachments/assets/d6280275-5f24-4fc0-9a62-920cc17416fa" />
