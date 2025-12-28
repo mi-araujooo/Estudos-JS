@@ -1,4 +1,4 @@
-# 📋 Formulário de Cadastro com Validação
+# 📋 Formulário Básico de Cadastro
 
 ## 🎯 Objetivo
 Criar um formulário de cadastro funcional que valide corretamente os dados inseridos pelo usuário, fornecendo feedback visual e mensagens claras de erro ou sucesso.
@@ -19,6 +19,6 @@ Criar um formulário de cadastro funcional que valide corretamente os dados inse
 - Feedback visual com animações leves
 - Reset do formulário após envio válido
 
-## 📂 Prévia
+## ▶️ Prévia
 
 <img width="1000" height="646" alt="image" src="https://github.com/user-attachments/assets/d6280275-5f24-4fc0-9a62-920cc17416fa" />
