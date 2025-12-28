@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "espaço_total">
+        <div class="conteudo">
+            <form>
+                <div class="nome">
+                    <label for="pnome">Nome:</label><br>
+                    <input type="text" id="pnome" name="pnome">
+                </div>
+                 <div class="sobrenome">
+                    <label for="snome">Sobrenome:</label><br>
+                    <input type="text" id="snome" name="snome">
+                </div>
+                <div class="email">
+                    <label for="mail">Email:</label><br>
+                    <input type="email" id="mail" name="mail">
+                </div>
+                <div class="senha">
+                    <label for="pass">Senha:</label><br>
+                    <input type="password" id="pass" name="pass">
+                </div>
+                <div class="conf_senha">
+                    <label for="pass_2">Confrmar Senha:</label><br>
+                    <input type="password" id="pass_2" name="pass_2">
+                </div>
+                <button id="sub">SUBMETER</button>
+            </form>
+        </div>
+        <div class="notific_erro">
+            <span></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
