@@ -1,6 +1,4 @@
 # 📋 Formulário de Cadastro com Validação
-Projeto desenvolvido com o objetivo de praticar **HTML, CSS e JavaScript**, com foco em **validação de formulários**, **regras de negócio** e **experiência do usuário (UX)**.
-
 ## 🎯 Objetivo
 Criar um formulário de cadastro funcional que valide corretamente os dados inseridos pelo usuário, fornecendo feedback visual e mensagens claras de erro ou sucesso.
 
